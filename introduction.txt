@@ -1,0 +1,28 @@
+ ##   reclamento  y  configuracion del proyecto
+
+
+Paso 1: Diseñar la Arquitectura del Sistema
+
+En este paso, vamos a diseñar la arquitectura del sistema de tres capas, que consta de:
+
+1. **Capa de Presentación (Interfaz de Usuario):** Responsable de interactuar con el usuario y presentar la información.
+2. **Capa de Lógica de Negocio:** Contiene la lógica empresarial de la aplicación.
+3. **Capa de Acceso a Datos:** Se encarga de interactuar con la base de datos.
+
+Pasos a seguir  para  exito  del  proyecto de la aplicación:
+
+1. **Definir Responsabilidades de Cada Capa:** 
+   - La Capa de Presentación se encargará de recibir las solicitudes del usuario y mostrar los resultados.
+   - La Capa de Lógica de Negocio implementará las reglas de negocio y coordinará las operaciones entre la capa de presentación y la capa de acceso a datos.
+   - La Capa de Acceso a Datos realizará operaciones CRUD en la base de datos y proporcionará los datos necesarios a la capa de lógica de negocio.
+
+2. **Seleccionar Tecnologías y Herramientas:**
+   - Para la Capa de Presentación, podemos utilizar Flask para crear una API RESTful que acepte solicitudes HTTP.
+   - En la Capa de Lógica de Negocio, utilizaremos Python para implementar la lógica empresarial.
+   - En la Capa de Acceso a Datos, podemos usar SQLAlchemy o Flask-SQLAlchemy para interactuar con la base de datos.
+
+3. Definir Interfaces Entre Capas:
+   - La Capa de Presentación se comunicará con la Capa de Lógica de Negocio a través de solicitudes HTTP.
+   - La Capa de Lógica de Negocio llamará a los métodos de la Capa de Acceso a Datos para realizar operaciones en la base de datos.
+
+-------------------------------------------------------------------------------------------------------------------------------
