@@ -2,6 +2,15 @@ body {
     background-color: cornflowerblue;
 }
 
+.titulo{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    text-shadow: 0 2px goldenrod;
+    font-style: italic;
+    cursor: pointer;
+
+}
 
 .content_footer{
 
